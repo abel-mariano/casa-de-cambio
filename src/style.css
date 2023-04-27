@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #282C33;
+}
+
+header {
+  width: 56%;
+}
+
+h1 {
+  font-family: 'Fira Code', monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 79px;
+  color: #FFFFFF;
+  margin-top: 63px;
+}
+
+.green {
+  color: #95EBA8;
+}
+
+form {
+  margin-top: 28px;
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+#coin-input {
+  background-color: rgba(217, 217, 217, 0.1);
+  width: 171px;
+  height: 48px;
+  margin-top: 5px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  padding-left: 15px;
+  color: #898989;
+  text-transform: uppercase;
+}
+
+.search-btn {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #373737;
+  width: 171px;
+  height: 48px;
+  background: #96EB95;
+  border: 1px solid #96EB95;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.main {
+  background-color: rgba(255, 255, 255, 0.06);
+  width: 56%;
+  border-radius: 20px;
+  margin-top: 57px;
+  margin-bottom: 20px;
+  padding: 8px;
+}
+
+.coins-title {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  color: #FFFFFF;
+  margin-top: 24px;
+  margin-bottom: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coins {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.coin {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 150px;
+  height: 44px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.color-coin {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.coin .image-icon {
+  width: 14px;
+  height: 14px;
+  margin: 0 8px;
+}
+
+.color-coin-gold {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: #FFE713;
+  margin-left: 20px;
+}

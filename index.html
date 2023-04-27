@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
+  <title>Casa de Câmbio</title>
+</head>
+<body>
+  <header>
+    <h1>Casa de <span class="green">Câmbio</span></h1>
+
+    <form action="">
+      <label for="coin-input">
+        Digite a moeda:
+        <br>
+        <input type="text" placeholder="USD" id="coin-input">
+      </label>
+
+      <button class="search-btn" type="button">Pesquisar</button>
+    </form>
+  </header>
+
+  <main class="main">
+    <section>
+      <h2 class="coins-title"></h2>
+      <ul class="coins"></ul>
+    </section>
+  </main>
+
+  <script src="./src/main.js" type="module"></script>
+</body>
+</html>
