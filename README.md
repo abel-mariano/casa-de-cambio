@@ -1,4 +1,4 @@
-# Welcome to the exchange house project repository! 🪙
+# Welcome to the Exchange House project repository! 💵
 
 <summary><strong>🧑‍💻 What was developed in the project</strong></summary><br />
 
@@ -24,7 +24,7 @@ In this project done as an exercise at Trybe, an exchange application was create
 <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" />
 </h1>
 
-## 👷🖥 Usage
+## 👨🏻‍💻🖥 Usage
 
 ```bash
 # Clone the repository
