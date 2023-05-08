@@ -43,7 +43,7 @@ $ npm install or npm i
 
 ```bash
 # Start application on local server
-$ npm start
+$ npm run dev
 ```
 
 ## :mortar_board: Author
